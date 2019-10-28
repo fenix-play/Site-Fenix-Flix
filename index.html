@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>☫ Fênix Flix - O Melhor do Cinema no seu Kodi!</title>
+	<link rel="icon" type="imagem/png" href="favicon.ico" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+  	<link rel="stylesheet" href="css/et-line-font.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/vegas.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Rajdhani:400,500,700' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vegas.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+	<!--<script src="//code.jquery.com/jquery-3.0.0.min.js"></script>-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/jaascript.js"></script>
+	<script src="js/backup.js"></script>
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script>
+    (function(d, w, c) {
+        w.ChatraID = 'hpphm5H2B5sA2gyFb';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+</script>
+	<script>
+	jQuery( function() {
+		var myPlayer = jQuery( "#bgndVideo" ).YTPlayer( {
+			onReady: function( player ) {
+				YTPConsole.append( player.id + " player is ready" );
+				YTPConsole.append( "<br>" );
+			}
+		} );
+
+		myPlayer.on( "YTPData", function( e ) {
+			$( ".dida" ).html( e.prop.title + "<br>@" + e.prop.channelTitle );
+			$( "#videoData" ).show();
+		} );
+
+		var YTPConsole = jQuery( "#eventListener" );
+		myPlayer.on( "YTPStart YTPEnd YTPLoop YTPPause YTPBuffering YTPMuted YTPUnmuted", function( e ) {
+			YTPConsole.append( "event: " + e.type + " (" + jQuery( "#bgndVideo" ).YTPGetPlayer().getPlayerState() + ") > time: " + e.time );
+			YTPConsole.append( "<br>" );
+		} );	
+	} );
+</script>
+
+</head>
+   <style>
+ 	body{
+ 		background-image:url(images/slide-1.jpg);
+ 		background-attachment: fixed;
+ 		background-size: 100%;
+ 		background-repeat: no-repeat;
+ 		background-color: #000;
+ 	}
+ </style>
+<body>
+
+<section id="home">
+	<div class="container">  
+		<div class="row">
+
+			<div class="col-md-offset-2 col-md-8 col-sm-12">
+				<div class="home-thumb">
+					<img style="width: 50%;" src="images/thumb.png" />
+          			<h4 class="wow fadeInUp" data-wow-delay="0.6s">☫ Fênix Flix Renascendo das cinzas e levando <strong>O Melhor conteúdo</strong> Totalmente Grátis <strong>Para Você e sua Família</strong></h4> 
+          			<a href="https://fb.me/addonfenixflix" title="Acesse a nossa página no Facebook!" class="button fb" target="_blank">FACEBOOK</a><a href="https://www.urlplay.com/convite-whatsapp-fenix-flix" title="Link do grupo (☫ ғᴇɴɪx ғʟɪx) leia a descrição do grupo para não ser removido!" class="button tw2" target="_blank">WHATSAPP</a><a href="https://www.urlplay.com/grupo-telegram-fenix-flix" title="Participe do nosso grupo no Telegram! Link para entrar no grupo do Telegram!" class="button tw" target="_blank">TELEGRAM</a><br><a href="http://bit.ly/canal-fenixflix" title="Assista os videos e inscreva-se no canal ☫ ғᴇɴɪx ғʟɪx!" class="button tw4" target="_blank">YOUTUBE</a><a href="http://www.fenixflix.orgfree.com/pyprotecao" title="Site para proteção de arquivos .py (default.py, basedem.py etc...)" class="button tw5" target="_blank">PY PROTEÇÃO</a><a href="http://www.fenixflix.orgfree.com/repositorio" title="Download repositório (Zip) ☫ ғᴇɴɪx ғʟɪx!" class="button tw3" target="_blank">REPOSITÓRIO</a>
+				</div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+
+<section id="about">
+	<div class="container">
+		<div class="row">
+
+      <div class="col-md-6 col-sm-12">
+        <img src="images/about-img.png" class="img-responsive wow fadeInUp" alt="About">
+      </div>
+
+			<div class="col-md-6 col-sm-12">
+				<div class="about-thumb">
+					<div class="section-title">
+						<h1 class="wow fadeIn" data-wow-delay="0.2s">O que é?</h1>
+						<h3 class="wow fadeInUp" data-wow-delay="0.4s">Tudo Sobre o addon ☫ Fênix Flix</h3>
+					</div>
+					<div class="wow fadeInUp" data-wow-delay="0.6s">
+						<p>Fênix Flix é um Plugin de vídeo para o KODI que agrega links de reprodução de vídeos de vários tipos, lembrando que esses videos encontran-se em sites na internet como YouTube, Sites de Filmes e Series Etc...</p>
+						<p>Não hospedamos nenhum arquivo, tentamos levar os melhores conteúdos totalmesnte gratis para você assistir e curtir cada momento com a família e amigos.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+
+      <svg class="svgcolor-light" preserveAspectRatio="none" viewBox="0 0 100 102" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0 L50 100 L100 0 Z"></path>
+      </svg>
+
+       <div class="col-md-4 col-sm-6">
+        <h2>Atenção</h2>
+        <q class="wow fadeInUp" data-wow-delay="0.3s">
+        	O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation e não se responsabiliza pelo conteúdo encontrado aqui nem o mau uso do mesmo. Nosso app funciona apenas como um agregador de links e apenas organiza os mesmos, bem como as sinopses, títulos e outros! 
+        </q>
+      </div>
+
+      <div class="col-md-1 col-sm-1"></div>
+
+      <div class="col-md-4 col-sm-5">
+        <h2>☫ Fênix Flix</h2>
+          <div class="wow fadeInUp" data-wow-delay="0.6s">
+             <q>☫ ғᴇɴɪx ғʟɪx - σ мєłнσя dσ cıηємα ησ sєυ kσdı!</q><br><br>
+             <q class="copyright-text">Copyright &copy; 2018-2019 ☫ Fênix Flix <br>
+             Site feito por: <a rel="nofollow" href="https://www.urlplay.com/grupo-telegram-fenix-flix" target="_parent">Alderson</a></q>
+          </div>
+      </div>
+	  
+		</div>
+	</div>
+</footer>
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+<a id="bgndVideo" class="player" data-property="{videoURL:'5dIwrAEq_Qw',containment:'body',  stopMovieOnBlur:false, showControls:true, autoPlay:true, loop:true, vol:50, mute:false, startAt:1,  stopAt:50, opacity:1, addRaster:true, quality:'hd720', optimizeDisplay:true}"></a>
+</head>
+</body>
+</html>
