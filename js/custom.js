@@ -1,4 +1,3 @@
-
  /* jQuery Pre loader
   -----------------------------------------------*/
 $(window).load(function(){
@@ -7,19 +6,6 @@ $(window).load(function(){
 
 
 $(document).ready(function() {
-
-  /* Home Slideshow Vegas
-  -----------------------------------------------*/
-  $(function() {
-    $('body').vegas({
-        slides: [
-            { src: 'images/slide-1.jpg' },
-        ],
-        timer: false,
-        transition: [ 'zoomOut', ]
-    });
-  });
-
 
    /* Back top
   -----------------------------------------------*/
