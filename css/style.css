@@ -634,7 +634,7 @@ footer {
 
 /* footer section  */
 footer {
-  background: #127364;
+  background: #b22222;
 }
 
 footer .copyright-text {
@@ -764,7 +764,7 @@ footer a:hover {
 
 
 stronq {
-  color: #127364;
+  color: #b22222;
   font-weight: 700;
 }
 
@@ -818,16 +818,16 @@ h4 {
   list-style: none;
 }
 .icon-table .single-pricing-table .pricing-item ul li p stronq {
-  color: #127364;
+  color: #b22222;
 }
 .icon-table .single-pricing-table .pricing-button {
   padding: 20px 0;
 }
 .icon-table .single-pricing-table .pricing-button a.btn-pricing {
-  background-color: #127364;
+  background-color: #b22222;
 }
 .dark-table .pricing-special {
-  border: 8px solid #7FFFD4;
+  border: 8px solid #b22222;
 }
 .dark-table .single-pricing-table {
   box-shadow: 0px 2px 9px 10px rgba(20, 21, 25, 0.78);
@@ -849,7 +849,7 @@ h4 {
   font-size: 42px;
   font-weight: 700;
   margin-top: 50px;
-  color: #127364;
+  color: #b22222;
 }
 .dark-table .single-pricing-table .pricing-item {
   padding: 20px 0;
@@ -867,7 +867,7 @@ h4 {
   padding: 20px 0;
 }
 .dark-table .single-pricing-table .pricing-button a.btn-pricing {
-  background-color: #127364;
+  background-color: #b22222;
   text-transform: uppercase;
   border-radius: 0px;
 }
@@ -880,21 +880,21 @@ h4 {
 .small-table .single-pricing-table .price {
   font-weight: 700;
   font-size: 70px;
-  color: #127364;
+  color: #b22222;
 }
 .small-table .single-pricing-table .pricing-table-heading h4 {
-  color: #127364;
+  color: #b22222;
   text-transform: uppercase;
   font-size: 18px;
 }
 .small-table .single-pricing-table .pricing-table-heading p {
-  color: #127364;
+  color: #b22222;
 }
 .small-table .single-pricing-table .pricing-button {
   padding: 20px 0;
 }
 .small-table .single-pricing-table .pricing-button a.btn-pricing {
-  background-color: #127364;
+  background-color: #b22222;
   text-transform: uppercase;
   border-radius: 20px;
 }
