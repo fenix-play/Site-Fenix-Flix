@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^process?$ process.php [NC,L]
+RewriteRule ^error?$ error.php [NC,L]
+
+ErrorDocument 400 https://www.fenixflix.ml/pyprotecao/error
+ErrorDocument 401 https://www.fenixflix.ml/pyprotecao/error
+ErrorDocument 403 https://www.fenixflix.ml/pyprotecao/error
+ErrorDocument 404 https://www.fenixflix.ml/pyprotecao/error
+ErrorDocument 408 https://www.fenixflix.ml/pyprotecao/error
+ErrorDocument 500 https://www.fenixflix.ml/pyprotecao/error
+ErrorDocument 502 https://www.fenixflix.ml/pyprotecao/error
+ErrorDocument 503 https://www.fenixflix.ml/pyprotecao/error
