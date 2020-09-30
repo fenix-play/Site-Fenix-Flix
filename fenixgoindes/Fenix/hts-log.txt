@@ -1,0 +1,54 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 30 Sep 2020 10:29:13 at http://goindex-quick-install.glitch.me/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qYC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" -Y http://goindex-quick-install.glitch.me/ -O1 "C:\Users\Fênix\Desktop\fenixgoindes\Fenix" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:29:14	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css.z
+10:29:14	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css.z
+10:29:15	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js.z
+10:29:15	Error: 	Unable to save file C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js: No error
+10:29:15	Warning: 	file not stored in cache due to bogus state (broken size, expected 34098 got 0): https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js
+10:29:15	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js.z
+10:29:15	Error: 	Unable to save file C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js: No error
+10:29:15	Warning: 	file not stored in cache due to bogus state (broken size, expected 3348 got 0): https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js
+10:29:39	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/github.com/Aicirou/goindex-theme-acrou.html.z
+10:29:40	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/accounts.google.com/o/oauth2/auth.8db6b.delayed.z
+10:29:40	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/accounts.google.com/AccountChooser.94454.delayed.z
+10:29:40	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/glitch.com/edit/index.html.z
+10:29:41	Error: 	"Error when decompressing" (-1) at link https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css (from goindex-quick-install.glitch.me/)
+10:29:41	Error: 	"Error when decompressing" (-1) at link https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css (from goindex-quick-install.glitch.me/)
+10:29:41	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 34098 expected)) at link https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js (from goindex-quick-install.glitch.me/)
+10:29:41	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 3348 expected)) at link https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js (from goindex-quick-install.glitch.me/)
+10:29:42	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js.z
+10:29:42	Error: 	Unable to save file C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js: No error
+10:29:42	Warning: 	file not stored in cache due to bogus state (broken size, expected 3348 got 0): https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js
+10:29:42	Warning: 	Retry after error -5 (Unable to get server's address: Este geralmente � um erro tempor�rio durante a r) at link https://hm.baidu.com/hm.js?9c5614ee0ea7b04c0f3d142b02f283fc (from goindex-quick-install.glitch.me/)
+10:29:53	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js.z
+10:29:53	Error: 	Unable to save file C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js: No error
+10:29:53	Warning: 	file not stored in cache due to bogus state (broken size, expected 34098 got 0): https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js
+10:29:53	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/workers.cloudflare.com/index.html.z
+10:29:53	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/accounts.google.com/ServiceLogin14e3.html.z
+10:29:55	Error: 	"Error when decompressing" (-1) at link https://github.com/Aicirou/goindex-theme-acrou (from goindex-quick-install.glitch.me/)
+10:29:56	Warning: 	File not parsed, looks like binary: https://glitch.com/robots.txt
+10:29:56	Error: 	"Error when decompressing" (-1) at link https://glitch.com/edit/ (from goindex-quick-install.glitch.me/)
+10:29:57	Error: 	"Error when decompressing" (-1) at link https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMvrwd2B2GuV5nKH0MJpsMM-usIkOHD_UthHOFNT7ThfbBF8HtFgl16hbOwLpjxdJ4iP_qztztsSc5BvoB5mQLPrxNn9LKfLLbdEuxjhVSMquGo2gBvv3CYTS6uEDGSDj08RJrmDNDzezyL_xKFIEtEayUUsIjWgDHOBAyz1UIQU8Lmrp2go0kiP3cqTzOWmGk9eaSFbbnuFJSQeAerh9EQ6wMhWBPLkTQr69D_SmElmr1MLSYiipwmgVO6QEFvAwJoMce3CyIQhaNnRPPOxlTx-u2mU3wy4rFakvHLNYZivXGotuNEygt6D6ly1tv6cXh1JeObrpRBXrM_1a4W75paBD15QR8737CMefX_IKR23K5AY9E%26as%3DS-385086993%253A1601472580662986%23&sacu=1&oauth=1&rip=1 (from goindex-quick-install.glitch.me/)
+10:29:57	Error: 	"Internal Server Error" (500) after 2 retries at link https://workers.cloudflare.com/robots.txt (from goindex-quick-install.glitch.me/)
+10:29:57	Error: 	"Error when decompressing" (-1) at link https://workers.cloudflare.com/ (from goindex-quick-install.glitch.me/)
+10:29:57	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 34098 expected)) at link https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js (from goindex-quick-install.glitch.me/)
+10:29:57	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 3348 expected)) at link https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js (from goindex-quick-install.glitch.me/)
+10:29:57	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://hm.baidu.com/hm.js?9c5614ee0ea7b04c0f3d142b02f283fc (from goindex-quick-install.glitch.me/)
+10:30:09	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js.z
+10:30:09	Error: 	Unable to save file C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js: No error
+10:30:09	Warning: 	file not stored in cache due to bogus state (broken size, expected 3348 got 0): https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js
+10:30:09	Warning: 	can not create directory to C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js.z
+10:30:09	Error: 	Unable to save file C:/Users/Fênix/Desktop/fenixgoindes/Fenix/cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js: No error
+10:30:09	Warning: 	file not stored in cache due to bogus state (broken size, expected 34098 got 0): https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js
+10:30:09	Error: 	"Incorrect length (0 Bytes, 34098 expected)" (-4) after 2 retries at link https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js (from goindex-quick-install.glitch.me/)
+10:30:09	Error: 	"Incorrect length (0 Bytes, 3348 expected)" (-4) after 2 retries at link https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js (from goindex-quick-install.glitch.me/)
+10:30:09	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://hm.baidu.com/hm.js?9c5614ee0ea7b04c0f3d142b02f283fc (from goindex-quick-install.glitch.me/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 56 seconds : 23 links scanned, 3 files written (28070 bytes overall) [201236 bytes received at 3593 bytes/sec], 153782 bytes transferred using HTTP compression in 11 files, ratio 100%, 1.1 requests per connection
+(16 errors, 27 warnings, 0 messages)
