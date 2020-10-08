@@ -1,0 +1,133 @@
+/*
+
+	pyprotect - By: PyProtect
+	Version 0.1alpha
+	https:/.tk/pyprotect/index.php
+
+	This is an open source software
+	Read LICENSE file before using it
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed');
+
+body{
+	background-image: url('bg2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 16px;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #616161;
+	text-decoration: none;
+	border-bottom: 1px dotted #616161;
+}
+
+a:hover{
+	color: #424242;
+}
+
+.title{
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 0;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.loader{
+	display: none;
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.copy{
+	display: inline-block;
+	margin-top: 5px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.containerCaptcha{
+    background-color: rgba(211,211,211,0.2);
+    border-radius: 7px;
+    margin: 10px 0px;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.containerCaptcha input{
+    width: 80px;
+    margin-right: 5px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+.containerCaptcha img{
+    height: 15px;
+    text-decoration: none;
+}
+
+.containerCaptcha img:hover{
+    opacity: 0.5;
+}
+
+.containerCaptcha a{
+    border: none;
+}
+
+.centeredContent{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	table-layout: fixed;
+}
+
+.centeredContent td{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+form{
+	margin: 0px;
+	padding: 0px;
+}
+
+input{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+button{
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 15px;
+	cursor: hand;
+	color: #424242;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: #BDBDBD;
+}
+
+button:hover{
+	background-color: #9E9E9E;
+}
+
+hr{
+	max-width: 500px;
+	border: 0;
+	padding: 0;
+	margin-bottom: 10px; margin-top: 10px;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
